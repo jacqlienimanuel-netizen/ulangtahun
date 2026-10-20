@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    table,th,td{
+      border: 1px solid black;
+
+    }
+    #table1 th{
+      background-color: beige;
+    }
+    #table1 td{
+      background-color: lightgray;
+    }
+    #table2 th{
+      background-color: navajowhite;
+    }
+    #table2 td{
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Jeklin"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Imanuel">
+<br>
+<label for="password">Password:</label><br>
+<input type="text" id="passport" name="passport">
+<br>
+
+<label for="instagram">Instagram:</label><br>
+<input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br>
+
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+<label for="jeklin">Jeklin</label><br>
+
+<br><br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+<input type="text" id="instagram" name="instagram">
+
+<br><br>
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+  <option value="toyota">Toyota</option>
+</select>
+<br><br>
+<table id="table1">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+    <th>Alamat</th>
+
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+    <td>Dayodara</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+    <td>Palu Timur</td>
+  </tr>
+  
+</table>
+
+<br><br>
+<table class="table table-hover">
+  <tr>
+    <th>No</th>
+    <th>Nama</th>
+    <th>Nim</th>
+    <th>No WhatsApp</th>
+    <th>aksi<th>
+
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Acha</td>
+    <td>WN20625002</td>
+    <td>0857-0515-8509</td>
+    <td><button type="button" class="btn btn-danger">hapus</button> </td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Aurel</td>
+    <td>WN20625003</td>
+    <td>0812-4189-8137</td>
+  </tr> 
+  <tr>
+    <td>3.</td>
+    <td>Azmi</td>
+    <td>WN20625004</td>
+    <td>0821-4120-198</td>
+  </tr> 
+  <tr>
+    <td>4.</td>
+    <td>Gilang</td>
+    <td>WN20625006</td>
+    <td>0853-4128-1788</td>
+  </tr> 
+  <tr>
+    <td>5.</td>
+    <td>Jeklin</td>
+    <td>WN20625007</td>
+    <td>0823-5887-8157</td>
+  </tr> 
+  <tr>
+    <td>6.</td>
+    <td>Lala</td>
+    <td>WN20625008</td>
+    <td>0831-7948-0739</td>
+  </tr> 
+  <tr>
+    <td>7.</td>
+    <td>Niluh</td>
+    <td>WN20625010</td>
+    <td>0822-2904-3996</td>
+  </tr> 
+  <tr>
+    <td>8.</td>
+    <td>Dian</td>
+    <td>WN20625012</td>
+    <td>0853-4010-6610</td>
+   </tr> 
+   <tr>
+    <td>9.</td>
+    <td>Radita</td>
+    <td>WN20625013</td>
+    <td>0813-4235-8626</td>
+  </tr> 
+  <tr>
+    <td>10.</td>
+    <td>Risma</td>
+    <td>WN20625014</td>
+    <td>0853-4829-4860</td>
+  </tr> 
+  <tr>
+    <td>11.</td>
+    <td>Suci</td>
+    <td>WN20625016</td>
+    <td>0822-9379-9716</td>
+  </tr> 
+  <tr>
+    <td>12.</td>
+    <td>Varadiba</td>
+    <td>WN20625017</td>
+    <td>0851-8860-1947</td>
+  </tr> 
+  <tr>
+    <td>13.</td>
+    <td>Melda</td>
+    <td>WN20625018</td>
+    <td>0853-8593-8408</td>
+  </tr> 
+  <tr>
+    <td>14.</td>
+    <td>Kk inggrit</td>
+    <td>WN20624006</td>
+    <td>0838-9733-7941</td>
+
+</table>
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
+
+
